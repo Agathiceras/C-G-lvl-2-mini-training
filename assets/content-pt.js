@@ -165,7 +165,7 @@ COURSE.modules = [
           ['Copiar o link do Sparks e enviar no cartão','O link é o do <b>projeto publicado no Sparks</b>, não o do MakeCode. Publicar e enviar o link são <b>dois passos diferentes</b>.'],
           ['Nas aulas seguintes: atualizar, não duplicar','<b>My projects → Edit → Project link</b>, com <b>“Update existing share link”</b> marcado no MakeCode.']
         ]},
-        { t:'sim', flag:'sparksPublish', src:'../sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
+        { t:'sim', flag:'sparksPublish', src:'sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
       ]},
       { id:'trouble', e:'🛠️', title:'Quando algo dá errado', blocks:[
         { t:'acc', open:false, items:[
