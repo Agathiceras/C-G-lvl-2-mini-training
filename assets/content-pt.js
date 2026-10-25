@@ -80,13 +80,13 @@ COURSE.home = {
 
 COURSE.notes = [
   { kind:'pink', e:'🧭', html:'<b>Antes de começar:</b> faça primeiro a <b>formação principal do Novo Modelo Educacional (EM)</b>. Esta formação do curso vem depois e parte do que você já viu lá: o Backoffice e as Teacher Notes, o Classroom com o Follow Mode, o tour pelo Kodland Sparks e a qualidade da aula.' },
-  { kind:'warn', e:'🔄', html:'<b>O conteúdo das aulas no Backoffice vai sendo atualizado.</b> Com o feedback de alunos e tutores, as aulas estão sempre sendo melhoradas. Não se preocupe: quando houver mudanças, você será avisado com antecedência para preparar a aula.' }
+  { kind:'warn', e:'🔄', html:'<b>O conteúdo das aulas no Backoffice é atualizado continuamente.</b> A partir do feedback de alunos e tutores, as aulas passam por melhorias constantes. Não se preocupe: quando houver mudanças, você será avisado com antecedência para preparar a aula.' }
 ];
 
 COURSE.modules = [
   { id:'m1', n:1, e:'🎮', color:'#F97316', title:'O conteúdo do curso',
     desc:'Os dados gerais do curso, o que o aluno conquista, as 4 primeiras aulas e jogos reais publicados por alunos.',
-    obj:'Prepare-se para dar as primeiras aulas do Code & Game 2, em que alunos de 10–12 anos partem de um jogo pronto no MakeCode Arcade e o transformam no próprio jogo, publicado no Kodland Sparks.',
+    obj:'Prepare-se para dar as primeiras aulas do Code & Game 2. Nelas, alunos de 10–12 anos partem de um jogo pronto no MakeCode Arcade e o transformam em um projeto autoral, publicado no Kodland Sparks.',
     offer:[['🌈','Conhecer os dados gerais do curso e o que o aluno conquista.'],['📖','Saber o que acontece em cada uma das 4 primeiras aulas.'],['⚡','Ver jogos reais publicados por alunos no Kodland Sparks.'],['📘','Revisar as aulas e as Teacher Notes no Backoffice.']],
     sections:[
       { id:'ov', e:'🌈', title:'O curso', blocks:[
@@ -99,7 +99,7 @@ COURSE.modules = [
         { t:'callout', kind:'good', e:'📣', html:'Cada módulo termina com uma <b>mostra de projetos</b>: o aluno apresenta o jogo, explica como ele funciona e por que fez desse jeito. No final do curso, vem o <b>Demo Day</b>.' }
       ]},
       { id:'goals', e:'🎓', title:'Qual é o resultado para o aluno', blocks:[
-        { t:'p', html:'Ao final do curso, o aluno tem estas conquistas:' },
+        { t:'p', html:'Ao final do curso, o aluno vai alcançar estas conquistas:' },
         { t:'cards', cols:2, items:[
           ['🧱','Cria projetos','Nove produtos e o projeto final: jogos, um aplicativo e um site. Tudo fica no portfólio do Kodland Sparks.'],
           ['🚀','Leva a ideia até o Demo Day','Percorre sozinho o caminho da ideia ao lançamento e apresenta o projeto para a turma, explicando com tranquilidade como tudo funciona.'],
@@ -110,14 +110,14 @@ COURSE.modules = [
         ]}
       ]},
       { id:'les', e:'📖', title:'As 4 primeiras aulas', blocks:[
-        { t:'p', html:'O Módulo 1, «Arrancada neon. O primeiro jogo», leva o aluno de um jogo de corrida pronto, com um herói cinza, ao jogo dele: com herói próprio, pontuação, regras de vitória e derrota e uma mecânica única. Abra cada aula:' },
+        { t:'p', html:'O Módulo 1, «Arrancada neon. O primeiro jogo», leva o aluno de um jogo de corrida pronto, com um herói cinza, ao seu próprio jogo: com herói personalizado, pontuação, regras de vitória e derrota e uma mecânica única. Abra cada aula:' },
         { t:'lessons', key:'m1', items:[
           { tab:'M1A1', e:'🌈', h:'Aula 1 — Começamos a nossa história', p:'Primeira aula do curso. Os alunos se conhecem, combinam como vão trabalhar juntos, abrem o jogo pronto no MakeCode Arcade, mudam o nome dele, criam um herói próprio no editor de sprites e publicam o primeiro projeto no Kodland Sparks.',
             acc:[['📚','O que você precisa saber','<ul><li>O jogo pronto abre por um link no <b>MakeCode Arcade</b>; para entrar no projeto, clique em <b>Edit Code</b>.</li><li>Para mudar o nome do jogo: o bloco roxo com o campo «Untitled».</li><li>O herói é criado num bloco de código: ao clicar nele, abre-se o <b>editor de sprites</b>, onde o aluno escolhe cores e desenha o herói.</li><li>Se o aluno não souber que herói criar, pode pedir ideias ao <b>Kodland AI</b> ou escolher um sprite pronto da galeria do MakeCode.</li><li>Publicação: no MakeCode, <b>Share</b> e copiar o link; no Sparks, <b>Publish project</b>.</li></ul>'],
-                 ['🎯','Resultado-chave','<ul><li>O jogo pronto abre e roda no MakeCode Arcade.</li><li>O jogo tem nome próprio e um herói do aluno no lugar do quadrado cinza.</li><li>O link do MakeCode foi acrescentado ao projeto publicado no Sparks.</li><li>O link do projeto no Sparks foi enviado no campo de resposta.</li></ul>'],
+                 ['🎯','Resultado-chave','<ul><li>O jogo pronto abre e roda no MakeCode Arcade.</li><li>O jogo tem nome próprio e um herói do aluno no lugar do quadrado cinza.</li><li>O link do MakeCode foi acrescentado ao projeto publicado no Sparks.</li><li>O link do projeto no Sparks foi enviado no campo de entrega do cartão.</li></ul>'],
                  ['🧑‍🏫','O seu papel','<ul><li>Receba o grupo com calor, apresente-se e deixe cada aluno contar um pouco sobre si, por voz ou no chat (cerca de 30 segundos cada), valorizando os interesses em comum.</li><li>Converse sobre as regras de trabalho em equipe como uma recomendação para todos se sentirem bem, e não como uma lista de proibições.</li><li>Mostre como abrir o jogo, entrar no editor, rodar e achar o sprite do herói. Mas o nome, o visual e a história do herói são escolha do aluno.</li><li>Não avalie a qualidade artística do sprite: o importante é o jogo funcionar e o ciclo de publicação ser concluído.</li></ul>'],
                  ['📌','Pontos de atenção','<ul><li>Confira se cada aluno abriu o jogo, entrou pelo <b>Edit Code</b> e rodou.</li><li>Se depois de uma mudança o jogo parar, ajude a desfazer as últimas ações e voltar à versão que funcionava.</li><li>A IA pode ajudar a imaginar o herói, mas <b>quem decide é o autor</b>.</li><li>Não reduza a apresentação dos projetos: ela reforça a autoria e cria a cultura do feedback positivo.</li></ul>'],
-                 ['⚙️','Aspectos técnicos','<ul><li>Antes de publicar, confira se o link do Share abre um jogo que funciona, e se o que vai para o Sparks é o link do <b>projeto publicado</b>.</li><li>Lição de casa: mudar a cor do fundo e o intervalo (1200 ms) com que os obstáculos aparecem. Desafio extra: gerar o herói com IA, convertendo a imagem para código (24×24, nome <code>hero</code>) e inserindo <code>hero.setImage(...)</code> no JavaScript.</li></ul>']] },
+                 ['⚙️','Aspectos técnicos','<ul><li>Antes de publicar, confira se o link do Share abre um jogo que funciona, e se o que vai para o Sparks é o link do <b>projeto publicado</b>.</li><li>Tarefa de casa: mudar a cor de fundo e o intervalo (1200 ms) com que os obstáculos aparecem. Desafio extra: gerar o herói com IA, convertendo a imagem para código (24×24, nome <code>hero</code>) e inserindo <code>hero.setImage(...)</code> no JavaScript.</li></ul>']] },
           { tab:'M1A2', e:'🪙', h:'Aula 2 — A caça aos pontos', p:'Os alunos voltam ao mesmo jogo e acrescentam um objetivo para o herói: coletar itens e contar pontos. Aprendem variáveis e eventos, vêem a pontuação na tela e fazem o toque no item somar pontos.',
             acc:[['📚','O que você precisa saber','<ul><li>Pontuação: um <b>número que o jogo guarda e muda</b> (a variável <code>score</code>).</li><li>Tocar no item é um <b>evento</b>: depois dele, o número muda.</li><li>No tratamento do toque, os tipos <code>Player</code> e <code>Food</code> precisam coincidir; depois de <code>change score by 1</code>, vem <code>destroy otherSprite</code>, senão o item continua na tela.</li><li>O assistente <b>Kodland AI</b> oferece opções de item para coletar, mas a decisão é do aluno.</li></ul>'],
                  ['🎯','Resultado-chave','<ul><li>O jogo mostra a pontuação, que começa em 0.</li><li>Na tela aparecem e se movem itens para coletar.</li><li>Tocar no item aumenta a pontuação e tira o item da tela.</li><li>O projeto é publicado no Sparks e o link é entregue na aula.</li></ul>'],
@@ -142,10 +142,10 @@ COURSE.modules = [
       { id:'proj', e:'⚡', title:'Projetos reais de alunos', blocks:[
         { t:'p', html:'É assim que ficam os jogos do Code & Game 2 depois de publicados no Kodland Sparks. Abra-os para jogar na plataforma:' },
         { t:'projects', items:[
-          { href:'https://portfolio.kodland.org/DeBohpodast/cmrn7ywpd007yqv3fvuanrprs', img:'https://portfolio.kodland.org/api/projects/cmrn7ywpd007yqv3fvuanrprs/file?variant=thumb', e:'🎮', color:'#F97316', tag:'Web App', title:'Game 3 Web', by:'DeBohpodast', desc:'Um jogo com menus claros e bem organizados — e com suporte a vários idiomas, como destacou o mentor de IA na avaliação.' },
+          { href:'https://portfolio.kodland.org/DeBohpodast/cmrn7ywpd007yqv3fvuanrprs', img:'https://portfolio.kodland.org/api/projects/cmrn7ywpd007yqv3fvuanrprs/file?variant=thumb', e:'🎮', color:'#F97316', tag:'Web App', title:'Game 3 Web', by:'DeBohpodast', desc:'Um jogo com menus claros e bem organizados — e com suporte a vários idiomas, como destacou o tutor de IA na avaliação.' },
           { href:'https://portfolio.kodland.org/DeBohpodast/cmrn729cf004mqv3fp20b1em3', img:'https://portfolio.kodland.org/api/projects/cmrn729cf004mqv3fp20b1em3/file?variant=thumb', e:'🏃', color:'#0EA5E9', tag:'Web App', title:'Crystal Dash, a 16-bit Runner', by:'DeBohpodast', desc:'Um jogo de corrida 16-bit: correr, coletar moedas, desviar de obstáculos, escolher a dificuldade e liberar novos mundos.' }
         ]},
-        { t:'callout', kind:'tip', e:'🤖', html:'Os dois projetos receberam uma <b>avaliação do mentor de IA</b>, publicada pelo próprio aluno na página do projeto. Isso rende cristais e mostra ao aluno o que já está funcionando bem.' }
+        { t:'callout', kind:'tip', e:'🤖', html:'Os dois projetos receberam uma <b>avaliação do tutor de IA</b>, publicada pelo próprio aluno na página do projeto. Isso rende cristais e mostra ao aluno o que já está funcionando bem.' }
       ]},
       { id:'bo', e:'📘', title:'Revise as aulas no Backoffice', blocks:[
         { t:'p', html:'Antes da verificação, abra o curso no Backoffice e leia as quatro aulas no seu ritmo — os cartões de atividade e as Teacher Notes estão todos lá. Não há tempo limite.' },
@@ -164,9 +164,9 @@ COURSE.modules = [
         { t:'p', html:'Estes são os pontos de foco definidos pelo time de produto para o Code & Game. Abra cada um:' },
         { t:'acc', items:[
           ['🚀','A1–A2: um início forte','<p>As duas primeiras aulas decidem se o aluno quer voltar. Os objetivos são <b>conhecer o grupo</b> e chegar a um <b>resultado rápido e visível</b>.</p><ul><li>Na apresentação, chame cada aluno pelo nome e pergunte de que jogos ele gosta.</li><li>Na A1, todos precisam ver o <b>próprio herói</b> no jogo; na A2, os itens somando pontos.</li><li>Garanta que <b>cada aluno termine a aula com algo funcionando</b> — mesmo que seja a versão mínima.</li></ul>'],
-          ['📤','Publicar e enviar o link em todas as aulas','<p>Em <b>todas as aulas</b>, desde a Aula 1, o aluno publica o jogo no Kodland Sparks e envia o link, e você confere.</p><ul><li>O link enviado no cartão é o do <b>projeto publicado no Sparks</b>.</li><li>O link do Share do MakeCode serve para o aluno colocar no projeto do Sparks e para o teste entre colegas.</li><li>Reserve tempo no fim da aula: a publicação não pode ficar para depois.</li></ul>'],
+          ['📤','Publicar e enviar o link em todas as aulas','<p>Em <b>todas as aulas</b>, desde a Aula 1, o aluno publica o jogo no Kodland Sparks e envia o link, e você confere.</p><ul><li>O link enviado no cartão deve ser o do <b>projeto já publicado no Sparks</b>.</li><li>O link do Share do MakeCode serve para o aluno colocar no projeto do Sparks e para o teste entre colegas.</li><li>Reserve um tempo no fim da aula: a publicação não pode ser deixada para depois.</li></ul>'],
           ['🌍','Os benefícios do Sparks','<p>Explique aos alunos por que publicar vale a pena:</p><ul><li><b>Comunidade:</b> o jogo aparece no Feed e no portfólio.</li><li><b>Playtest:</b> outros jogadores testam o jogo de verdade e mostram o que está fácil ou difícil demais.</li><li><b>Feedback:</b> dos jogadores (com <b>Request feedback</b>) e da IA, que destaca pontos fortes — e ainda rende cristais.</li></ul>'],
-          ['🏁','Última aula do M1: conquistas e gancho para o M2','<p>Na Aula 4, mostre o que os alunos conquistaram — do jogo pronto ao jogo deles, com mecânica própria — e <b>desperte o interesse pelo Módulo 2</b>.</p><ul><li>Faça o desfile de projetos: cada aluno mostra a mecânica que criou e como ela muda a partida.</li><li>Lembre as habilidades do módulo: criar a partir de um modelo, melhorar com ideias próprias, usar a IA como ajudante, testar e publicar.</li><li>Termine com uma prévia curta e empolgante do próximo módulo.</li></ul>']
+          ['🏁','Última aula do M1: conquistas e gancho para o M2','<p>Na Aula 4, mostre o que os alunos conquistaram — do jogo pronto ao jogo deles, com mecânica própria — e <b>desperte o interesse pelo Módulo 2</b>.</p><ul><li>Faça o desfile de projetos: cada aluno mostra a mecânica que criou e como ela muda a partida.</li><li>Lembre as habilidades do módulo: criar a partir de um modelo, melhorar com ideias próprias, usar a IA como ajudante, testar e publicar.</li><li>Encerre com uma prévia curta e envolvente do próximo módulo.</li></ul>']
         ]}
       ]},
       { id:'publish', e:'📤', title:'Publicar no Kodland Sparks em todas as aulas', blocks:[
@@ -174,11 +174,11 @@ COURSE.modules = [
         { t:'steps', items:[
           ['Preparar o jogo no MakeCode','No MakeCode, clique em <b>Share</b> e copie o link do jogo. Confira se o link abre e se o jogo funciona.'],
           ['Publicar no Sparks','No Sparks, no menu superior, clique em <b>Publish project</b> (ao lado de Feed, My projects e Studio). Preencha o cartão do projeto: título, descrição curta e o link do MakeCode.'],
-          ['Escolher a visibilidade','<b>Public</b> aparece no Feed e no portfólio público. <b>Friends only</b> só para amigos e professores. <b>Only me</b> deixa o projeto privado — ninguém mais abre o link, nem você. O importante é que <b>você consiga abrir o link</b>.'],
+          ['Escolher a visibilidade','<b>Public</b> aparece no Feed e no portfólio público. <b>Friends only</b> só para amigos e professores. <b>Only me</b> deixa o projeto privado — ninguém mais consegue abrir o link, nem você. O essencial é garantir que <b>o tutor tenha acesso ao link</b>.'],
           ['Ativar Request feedback (se o aluno quiser)','Assim outros jogadores podem deixar um feedback estruturado. Funciona só em projetos públicos.'],
-          ['Copiar o link do Sparks e enviar no cartão','O link é o do <b>projeto publicado no Sparks</b>, não o do MakeCode. Publicar e enviar o link são <b>dois passos diferentes</b>.']
+          ['Copiar o link do Sparks e enviar no cartão','O link enviado deve ser o do <b>projeto publicado no Sparks</b>, não o do MakeCode. Vale lembrar: publicar no Sparks e enviar o link na plataforma são <b>dois passos diferentes</b>.']
         ]},
-        { t:'sim', flag:'sparksPublish', src:'sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
+        { t:'sim', flag:'sparksPublish', src:'../sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
       ]},
       { id:'trouble', e:'🛠️', title:'Quando algo dá errado', blocks:[
         { t:'acc', open:false, items:[
@@ -195,7 +195,7 @@ COURSE.modules = [
         { t:'check', title:'✅ Meu checklist técnico', groups:[
           { h:'☑️ Antes da aula', items:['Li todas as Teacher Notes da aula e vi o vídeo de preparação, quando há.','Abri o jogo pronto da aula e sei onde está o link do projeto de reserva.'] },
           { h:'🎬 Durante a aula', items:['Peço que rodem o jogo (Play) depois de cada mudança.','Uso o Follow Mode para os cartões e compartilho só a aba da ferramenta nas demonstrações.'] },
-          { h:'📤 No fim da aula', items:['Todos publicaram o jogo no Sparks.','Todos enviaram o link do <b>Sparks</b> — não o do MakeCode — no cartão da aula.','Abri pelo menos alguns links para conferir que funcionam e que não há duplicatas.'] }
+          { h:'📤 No fim da aula', items:['Todos publicaram o jogo no Sparks.','Todos enviaram o link do <b>Sparks</b> — não o do MakeCode — no cartão da aula.','Abri pelo menos alguns links para conferir se estão funcionando e se não há duplicatas.'] }
         ]}
       ]}
     ]}
