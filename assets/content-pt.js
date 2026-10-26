@@ -176,9 +176,9 @@ COURSE.modules = [
           ['Publicar no Sparks','No Sparks, no menu superior, clique em <b>Publish project</b> (ao lado de Feed, My projects e Studio). Preencha o cartão do projeto: título, descrição curta e o link do MakeCode.'],
           ['Escolher a visibilidade','<b>Public</b> aparece no Feed e no portfólio público. <b>Friends only</b> só para amigos e professores. <b>Only me</b> deixa o projeto privado — ninguém mais consegue abrir o link, nem você. O essencial é garantir que <b>o tutor tenha acesso ao link</b>.'],
           ['Ativar Request feedback (se o aluno quiser)','Assim outros jogadores podem deixar um feedback estruturado. Funciona só em projetos públicos.'],
-          ['Copiar o link do Sparks e enviar no cartão','O link enviado deve ser o do <b>projeto publicado no Sparks</b>, não o do MakeCode. Vale lembrar: publicar no Sparks e enviar o link na plataforma são <b>dois passos diferentes</b>.']
+          ['Copiar o link do Sparks e enviar no cartão','O link é o endereço da página do projeto: em <b>My projects</b>, o aluno abre o <b>projeto publicado</b> e copia o link da <b>barra de endereço do navegador</b>. Deve ser o do <b>projeto publicado no Sparks</b>, não o do MakeCode. Vale lembrar: publicar no Sparks e enviar o link na plataforma são <b>dois passos diferentes</b>.']
         ]},
-        { t:'sim', flag:'sparksPublish', src:'../sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
+        { t:'sim', flag:'sparksPublish', src:'sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
       ]},
       { id:'trouble', e:'🛠️', title:'Quando algo dá errado', blocks:[
         { t:'acc', open:false, items:[
